@@ -1,5 +1,8 @@
 #!/bin/sh -e
 #L:
+#L:  This software is free to use and modify, but not free to maintain.
+#L:
+#l:  Donate bitcoin: 1C1ZzDje7vHhF23mxqfcACE8QD4nqxywiV
 #l:  Copyright (c) 2018 Openvirtus.com, http://openvirtus.com
 #L:
 #L:  Permission is hereby granted, free of charge, to any person obtaining
@@ -21,9 +24,15 @@
 #L:  OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 #L:  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #L:
+#R: ## OCRPDF
+#R:
+#r: This script reads an scanned or encrypted PDF using OCR (Optical Character
+#r: Recognizion) in order to get it's text.
+#r:
 #h: Usage: $0 [-o PDF] [-f FIRST-PAGE] [-l LAST-PAGE] [PDFS...]
 #h:
 #h: Get scanned or encrypted pdf and OCR it's text.
+#r:
 ###
 #shbuild:install bin/ocrpdf
 ocrpdf() {

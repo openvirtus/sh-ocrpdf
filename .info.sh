@@ -1,0 +1,2 @@
+HLICENSE_HEADERS=mit-openvirtus
+HREADME=-d
