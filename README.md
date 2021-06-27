@@ -7,6 +7,7 @@ Recognizion) in order to get it's text.
     
     Get scanned or encrypted pdf and OCR it's text.
 
+
 ## DONATIONS
 <ul>
 <li>
